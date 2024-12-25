@@ -1,0 +1,87 @@
+1. What is statically typed and dynamically typed programming language?
+
+Statically typed language: In a statically typed language, the type of a variable is known at compile time. This means you must declare the type of the variable before using it, and type checking is performed during compilation. Errors related to types are detected early. Examples of statically typed languages include Java, C, and C++.
+
+Dynamically typed language: In a dynamically typed language, the type of a variable is determined at runtime, and you don’t need to declare a variable's type before using it. Type errors are often caught only during execution. Examples of dynamically typed languages include Python, JavaScript, and Ruby.
+
+2. What is a variable in Java?
+
+A variable in Java is a named container used to store data that can be accessed and manipulated throughout the program. Each variable has a specific type (e.g., int, String, boolean) that defines the kind of data it can store. Java variables must be declared with a type before they are used.
+
+Example:
+
+java
+Copy code
+int age = 25;
+String name = "John";
+3. How to assign a value to a variable?
+
+In Java, you assign a value to a variable by using the assignment operator (=). The value is placed on the right side, and the variable is on the left side of the operator.
+
+Example:
+
+java
+Copy code
+int age = 25; // Assigns the value 25 to the variable age
+String name = "John"; // Assigns the string "John" to the variable name
+4. What are Primitive Data types in Java?
+
+Java has 8 primitive data types that are used to store simple values. They are:
+
+byte: A 8-bit signed integer. Range: -128 to 127.
+short: A 16-bit signed integer. Range: -32,768 to 32,767.
+int: A 32-bit signed integer. Range: -2^31 to 2^31-1.
+long: A 64-bit signed integer. Range: -2^63 to 2^63-1.
+float: A 32-bit floating-point number. Used for decimals (less precise).
+double: A 64-bit floating-point number. Used for decimals (more precise).
+char: A single 16-bit Unicode character. Range: 0 to 65,535.
+boolean: A type that can hold one of two values: true or false.
+5. What are the Identifiers in Java?
+
+An identifier in Java is the name given to variables, methods, classes, or any other user-defined item. Identifiers must start with a letter, underscore (_), or dollar sign ($), followed by letters, digits, underscores, or dollar signs. They cannot be Java reserved keywords (e.g., int, class, for).
+
+Examples:
+
+Valid identifiers: myVariable, age, calculateSum, $_variable
+Invalid identifiers: 2ndVariable (starts with a number), int (a reserved keyword)
+6. List the Operators in Java?
+
+Java provides a wide range of operators that are used for various operations. The main types of operators in Java are:
+
+Arithmetic Operators: +, -, *, /, % (modulus)
+Relational (Comparison) Operators: ==, !=, >, <, >=, <=
+Logical Operators: && (AND), || (OR), ! (NOT)
+Assignment Operators: =, +=, -=, *=, /=, %=
+Unary Operators: + (positive), - (negation), ++ (increment), -- (decrement)
+Bitwise Operators: &, |, ^, ~, <<, >>, >>>
+Ternary Operator: ? : (conditional expression)
+Instanceof Operator: instanceof (checks if an object is an instance of a specific class)
+Type Cast Operator: (type) (explicit type casting)
+7. Explain about Increment and Decrement operators and give examples?
+
+Increment operator (++): This operator increases the value of a variable by 1. It can be used in two forms:
+Prefix (++x): Increments the value before using it.
+Postfix (x++): Increments the value after using it.
+Example:
+
+java
+Copy code
+int x = 5;
+System.out.println(++x);  // Output: 6 (value is incremented before printing)
+System.out.println(x++);  // Output: 6 (value is printed, then incremented)
+System.out.println(x);    // Output: 7 (after increment)
+Decrement operator (--): This operator decreases the value of a variable by 1. It can also be used in two forms:
+Prefix (--x): Decrements the value before using it.
+Postfix (x--): Decrements the value after using it.
+Example:
+
+java
+Copy code
+int y = 5;
+System.out.println(--y);  // Output: 4 (value is decremented before printing)
+System.out.println(y--);  // Output: 4 (value is printed, then decremented)
+System.out.println(y);    // Output: 3 (after decrement)
+Both the increment and decrement operators are commonly used for loops or modifying variable values in quick operations.
+
+
+
